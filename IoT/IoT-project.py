@@ -67,6 +67,7 @@ def main():
         print("[INFO] Attempting to send data...")
         post_request(payload)
         print("[INFO] data successfully sent!")
+        
 if __name__ == '__main__':
     while (True):
         main()
